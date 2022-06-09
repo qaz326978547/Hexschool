@@ -1,0 +1,41 @@
+.content-login{
+    form{
+        width: 40%;
+        background: #EFE9E7;
+        box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+        border-top: 5px solid $warning;
+        label{
+            color: $primary;
+        }
+        .forget-psw{
+            color: red;
+        }
+        .forget-psw:hover{
+            color: blue;
+        }
+        .register{
+            background: rgba(0,0,0,0.35);
+            border-radius: 3px;
+            color: $secondary;
+        }
+        button{
+            background: $warning;
+            border-radius: 3px;
+            color: $secondary;
+        }
+    }
+}
+@include ipad{
+    .content-login{
+        form{
+            width: 60%;
+        }
+    }
+}
+@include mobile{
+    .content-login{
+        form{
+            width: 80%;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.register-contanier{
+    width: 60%;
+    background: #EFE9E7;
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+    border-top: 5px solid $warning;
+    .register-rule{
+        width: 50%;
+    }
+}
+form{
+    width: 50%;
+    color: $primary;
+    .login{
+        color: red;
+    }
+    .input-i{
+        position: relative;
+        input{
+            text-indent: 25px;
+            margin-bottom: 1rem;
+        }
+        .email{
+            position: absolute;
+            top: 23px;
+            left: 5px;
+        }
+        .lock1{
+            position: absolute;
+            top: 23px;
+            left: 5px;
+        }
+        .lock2{
+            position: absolute;
+            top: 7px;
+            left: 5px;
+        }
+    }
+    .register{
+        background: $warning;
+        border-radius: 3px;
+        color: $secondary;
+    }
+}
+@include ipad{
+    .form-flex{
+        flex-direction: column;
+        align-items: center;
+        .register-rule{
+            width: 80%;
+        }
+        form{
+            width: 60%;
+        }
+    }
+}
+@include mobile{
+    .form-flex{
+        .register-rule{
+            width: 100%;
+        }
+        form{
+            width: 80%;
+        }
+    }
+}

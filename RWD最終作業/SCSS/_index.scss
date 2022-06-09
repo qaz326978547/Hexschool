@@ -1,0 +1,153 @@
+/*content-intro*/
+.content-intro{
+    h2{
+        position: relative;
+    }
+    h2:before{
+        content: "";
+        width: 13%;
+        height: 1px;
+        background-color: #979797;
+        position: absolute;
+        top: 50%;
+        left: 20%;
+    }
+    h2::after{
+        content: "";
+        width: 13%;
+        height: 1px;
+        background-color: #979797;
+        position: absolute;
+        top: 50%;
+        right: 20%;
+    }
+    .intro-items{
+        justify-content: center;
+        margin: 0 -1%;
+        li{
+            width: 33%;
+            margin: 0 1%;
+            h3{
+                text-align: center;
+                margin: 1rem;
+                font-size: 20px;
+            }
+        }
+        img{
+            margin: 0 auto;
+            border-radius: 50%;
+        }
+    }
+}
+@include ipad{
+    .content-intro{
+        .intro-items{
+            flex-direction: column;
+            align-items: center;
+            li{
+                width: 80%;
+                margin-bottom: 1%;
+            }
+        }
+    }
+}
+.content-chef{
+    background-color: $primary;
+    .chef-intro{
+        width: 50%;
+        h3,p{
+            color: $secondary;
+        }
+    }
+}
+@include ipad{
+    .content-chef{
+        flex-direction: column;
+        img{
+            width: 100%;
+        }
+        .chef-intro{
+            width: 80%;
+        }
+    }
+}
+
+.content-feedback{
+    .feedback{
+        margin: 0 -1%;
+        li{
+            display: flex;
+            margin: 0 1%;
+            h3{
+                font-size: 20px;
+            }
+            h4{
+                text-align: right;
+            }
+            p{
+                margin: 16px 0;
+            }
+            img{
+                border-radius: 50%;
+                width: 67px;
+                height: 67px;
+            }
+            span{
+                padding: 1rem 0.5rem;
+            }
+        }
+    }
+}
+@include ipad{
+    .content-feedback{
+        .feedback{
+            flex-direction: column;
+            margin: 0;
+        }
+    }
+}
+.content-booking{
+    .booking{
+        .booking-form{
+            width: 45%;
+            >input{
+                width: 100%;
+                padding: 0.5rem 0;
+                margin-bottom: 1rem;
+            }
+            .booking-btn{
+                .reset-btn{
+                    background: rgba(0,0,0,0.35);
+                    color: $secondary;
+                    border-radius: 3px;
+                }
+                .submit-btn{
+                    background: $warning;
+                    color: $secondary;
+                    border-radius: 3px;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+}
+@include ipad{
+    .content-booking{
+        .booking{
+            flex-direction: column;
+            align-items: center;
+            .booking-form{
+                width: 60%;
+            }
+        }
+    }
+}
+@include mobile{
+    .content-booking{
+        .booking{
+            .booking-form{
+                width: 80%;
+            }
+        }
+    }
+}
