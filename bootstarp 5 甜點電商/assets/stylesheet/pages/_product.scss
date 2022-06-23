@@ -1,0 +1,11 @@
+.kinds li{
+    border: 1px solid #EAF0ED;
+}
+.kinds li:hover{
+    background-color:#EAF0ED;
+}
+@media (min-width:768px) {
+    .product-bg-text img{
+        width: 88px;
+    }
+}

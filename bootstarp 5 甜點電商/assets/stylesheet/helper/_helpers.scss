@@ -1,0 +1,187 @@
+.py-md-7{
+    @media(min-width:768px){
+        padding-top: 70px !important;
+        padding-bottom: 70px !important;
+    }
+}
+.writing-md-vertical {
+    @media(min-width:768px){
+        writing-mode: vertical-lr ;
+        text-align: justify;
+    }
+}
+.verrical-content{
+    line-height: 2;
+}
+.verrical-content{
+    @media(min-width:768px){
+        max-height: 420px;
+        line-height: 2.5;
+    }
+}
+.bg-cover{
+    background-size: cover;
+    background-position: center center;
+}
+.cup{
+    cursor: pointer;
+}
+.fsz-bold{
+    font-weight: bold;
+}
+//flex
+.d-flex{
+    display: flex;
+}
+.jc-l{
+    justify-content: start;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+.jc-c{
+    justify-content: center;
+}
+.jc-e{
+    justify-content: end;
+}
+.flex-d-c{
+    flex-direction: column;
+}
+//align-items
+.ali-c{
+    align-items: center;
+}
+.ali-left{
+    align-items: left;
+}
+.ali-r{
+    align-items: right;
+}
+//text-align
+.text-c{
+    text-align: center;
+}
+.text-r{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+//logo
+.logo{
+    text-indent:110%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+//line-height
+.line-h{
+    line-height: 1;
+}
+.line-h-1{
+    line-height: 1.5;
+}
+.line-h-2{
+    line-height: 2;
+}
+//margin
+.mg-1024{
+    width: 1024px;
+    margin: 0 auto;
+}
+.mg{
+    margin: 0 auto;
+}
+.mg-tb-1{
+    margin: 1rem 0;
+}
+.mg-tb-2{
+    margin: 2rem 0;
+}
+//margin-top
+.mgt-1{
+    margin-top:8px;
+}
+.mgt-2{
+    margin-top: 16px;
+}
+.mgt-3{
+    margin-top: 32px;
+}
+.mgt-4{
+    margin-top: 48px;
+}
+//margin-bottom
+.mgb-1{
+    margin-bottom: 8px;
+}
+.mgb-2{
+    margin-bottom: 16px;
+}
+.mgb-3{
+    margin-bottom: 32px;
+}
+.mgb-4{
+    margin-bottom: 48px;
+}
+//margin-left
+.mg-left-1{
+    margin-left: 8px;
+}
+.mg-left-2{
+    margin-left: 16px;
+}
+//padding
+.pd-1{
+    padding: 8px;
+}
+.pd-2{
+    padding: 16px;
+}
+.pd-3{
+    padding: 24px;
+}
+.pd-4{
+    padding: 32px;
+}
+.pd-5{
+    padding: 48px;
+}
+
+.pdx-4{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+//fontsize
+.fsz-18{
+    font-size: 18px;
+}
+.fsz-20{
+    font-size: 20px;
+}
+.fsz-24{
+    font-size: 24px;
+}
+.fsz-36{
+    font-size: 36px;
+}
+.fsz-48{
+    font-size: 48px;
+}
+
+.op-1{
+    opacity: 0.1;
+}
+.op-2{
+    opacity: 0.2;
+}
+.op-3{
+    opacity: 0.3;
+}
+.op-4{
+    opacity: 0.4;
+}
+.op-5{
+    opacity: 0.5;
+}

@@ -14,11 +14,16 @@
             color: blue;
         }
         .register{
+            padding: 5px 10px;
             background: rgba(0,0,0,0.35);
             border-radius: 3px;
             color: $secondary;
         }
         button{
+            padding: 5px 10px;
+            font-size: 1rem;
+            border: 0;
+            cursor: pointer;
             background: $warning;
             border-radius: 3px;
             color: $secondary;

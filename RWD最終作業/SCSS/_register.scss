@@ -13,6 +13,9 @@ form{
     .login{
         color: red;
     }
+    .login:hover{
+        color: blue;
+    }
     .input-i{
         position: relative;
         input{
@@ -36,9 +39,14 @@ form{
         }
     }
     .register{
+        padding: 5px 10px;
+        display: inline-block;
         background: $warning;
         border-radius: 3px;
         color: $secondary;
+    }
+    .register:hover{
+        opacity: 0.5;
     }
 }
 @include ipad{

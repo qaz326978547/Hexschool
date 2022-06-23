@@ -1,0 +1,45 @@
+body{
+    margin-top: 90px;
+}
+//pc-nav
+.navbar-nav a:hover{
+    border-bottom: 3px solid $primary;
+}
+.navbar a{
+    border-bottom: 3px solid transparent;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+}
+//main-bg
+.main-bg{
+    background-image: url(https://images.unsplash.com/photo-1473256599800-b48c7c88cd7e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ae0d68a…&auto=format&fit=crop&w=925&q=80);
+    height: 496px;
+}
+//footer
+.form-square{
+    position: relative;
+}
+.form-square-icon{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.form-square-input{
+    text-indent: 60px;
+}
+.outline-0{
+    outline: none;
+    border: none;
+}
+.btn-accent{
+    color: $primary;
+    background-color: #FFE180;
+    
+}
+.secondary-light{
+    background-color: #eaf0ed;
+}

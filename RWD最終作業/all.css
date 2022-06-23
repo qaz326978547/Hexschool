@@ -579,11 +579,16 @@ h1, h2, h3, h4, p, a {
   color: blue;
 }
 .content-login form .register {
+  padding: 5px 10px;
   background: rgba(0, 0, 0, 0.35);
   border-radius: 3px;
   color: #efe9e7;
 }
 .content-login form button {
+  padding: 5px 10px;
+  font-size: 1rem;
+  border: 0;
+  cursor: pointer;
   background: #ff5e45;
   border-radius: 3px;
   color: #efe9e7;
@@ -617,6 +622,9 @@ form {
 form .login {
   color: red;
 }
+form .login:hover {
+  color: blue;
+}
 form .input-i {
   position: relative;
 }
@@ -640,9 +648,14 @@ form .input-i .lock2 {
   left: 5px;
 }
 form .register {
+  padding: 5px 10px;
+  display: inline-block;
   background: #ff5e45;
   border-radius: 3px;
   color: #efe9e7;
+}
+form .register:hover {
+  opacity: 0.5;
 }
 
 @media (max-width: 767px) {
